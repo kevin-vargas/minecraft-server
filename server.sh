@@ -38,7 +38,6 @@ accept_eula(){
 }
 
 add_optionals(){
-  echo "equisde"
   if [ ! -z "${RAM}" ]
   then
     OPTS="-Xms${RAM} -Xmx${RAM} ${OPTS}"
