@@ -1,10 +1,10 @@
-FROM openjdk:16-slim
+FROM openjdk:18-slim
 
 ENV VERSION="latest" \
     RAM="" \
     OPTS=""
 
-COPY papermc.sh .
+COPY server.sh .
 
 RUN apt-get update \
     && apt-get install -y wget \
