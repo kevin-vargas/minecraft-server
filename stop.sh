@@ -1,6 +1,6 @@
 #!/bin/bash
-MSG="Server is stopping!"
+MESSAGE="Server is stopping!"
 INTERVAL=5
 PASS=palic
 
-mcrcon -p $PASS -w $INTERVAL "say ${MSG}" save-all stop
+mcrcon -p $PASS -w $INTERVAL "say ${MESSAGE}" save-all stop
